@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="text-center">
             &copy; 2024 Natala. All rights reserved.
           </div>
-          <ul className="flex justify-center gap-2.5">
+          <ul className="flex justify-center items-center gap-2.5">
             <li>
               <InstaIcon />
             </li>

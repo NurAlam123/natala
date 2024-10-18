@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const CallToAction = () => {
   return (
-    <div className="bg-black text-white py-[72px] sm:py-24 text-center">
+    <div className="bg-black text-white py-[72px] sm:py-24 text-center overflow-clip">
       <div className="container max-w-xl relative">
         <Image
           src={helixImage}
@@ -14,7 +14,7 @@ export const CallToAction = () => {
         <Image
           src={emojiStarImage}
           alt=""
-          className="absolute -top-[120px] right-[calc(100%-24px)]"
+          className="absolute -top-[60px] right-[calc(100%-24px)]"
         />
         <h2 className="text-5xl font-bold tracking-tighter sm:text-6xl">
           Get instant access

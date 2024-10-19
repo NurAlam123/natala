@@ -43,6 +43,7 @@ export const LogoTicker = () => {
                 key={image.id}
                 alt={image.alt}
                 className="flex-none h-8 w-auto"
+                draggable={false}
               />
             ))}
             {images.map((image) => (
@@ -51,6 +52,7 @@ export const LogoTicker = () => {
                 key={image.id}
                 alt={image.alt}
                 className="flex-none h-8 w-auto"
+                draggable={false}
               />
             ))}
           </motion.div>

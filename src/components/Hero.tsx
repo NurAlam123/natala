@@ -6,6 +6,7 @@ import cursorImage from "../assets/images/cursor.png";
 import messageImage from "../assets/images/message.png";
 
 import { motion } from "framer-motion";
+import { Button } from "./ui/Button";
 
 export const Hero = () => {
   return (
@@ -68,9 +69,7 @@ export const Hero = () => {
           </p>
         </div>
         <div className="flex justify-center mt-8">
-          <button className="bg-white text-black py-3 px-5 rounded-lg font-medium">
-            Get for free
-          </button>
+          <Button title="Get for free" />
         </div>
       </div>
     </div>

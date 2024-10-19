@@ -5,6 +5,7 @@ import emojiStarImage from "../assets/images/emojistar.png";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { Button } from "./ui/Button";
 
 export const CallToAction = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -60,9 +61,7 @@ export const CallToAction = () => {
             placeholder="your@email.com"
             className="h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:text-[#9CA3AF]"
           />
-          <button className="bg-white text-black h-12 rounded-lg px-5">
-            Get access
-          </button>
+          <Button title="Get access" />
         </form>
       </div>
     </div>

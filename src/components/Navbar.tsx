@@ -1,6 +1,7 @@
 import Image from "next/image";
 import logoImage from "../assets/images/logosaas.png";
 import MenuIcon from "../assets/icons/menu.svg";
+import { Button } from "./ui/Button";
 
 export const Navbar = () => {
   return (
@@ -49,9 +50,7 @@ export const Navbar = () => {
             >
               Customers
             </a>
-            <button className="bg-white py-2 px-4 rounded-lg">
-              Get for free
-            </button>
+            <Button title="Get for free" />
           </nav>
         </div>
       </div>

@@ -11,13 +11,13 @@ export const Footer = () => {
             &copy; 2024 Natala. All rights reserved.
           </div>
           <ul className="flex justify-center items-center gap-2.5">
-            <li>
+            <li className="fill-white/70 hover:fill-white cursor-pointer">
               <InstaIcon />
             </li>
-            <li>
+            <li className="fill-white/70 hover:fill-white cursor-pointer">
               <XSocial />
             </li>
-            <li>
+            <li className="fill-white/70 hover:fill-white cursor-pointer">
               <YoutubeIcon />
             </li>
           </ul>

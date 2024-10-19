@@ -32,6 +32,7 @@ export const ProductShowcase = () => {
             transformPerspective: "800px",
           }}
           ref={appImage}
+          className="flex justify-center items-center"
         >
           <Image
             src={appScreen}

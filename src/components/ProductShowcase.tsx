@@ -14,7 +14,7 @@ export const ProductShowcase = () => {
   const opacity = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
   return (
     <div className="bg-black text-white bg-gradient-to-b from-black to-[#5D2CAB] py-[72px] sm:py-24">
-      <div className="container">
+      <div className="container overflow-hidden">
         <h2 className="text-center text-5xl sm:text-6xl font-bold tracking-tighter">
           Intuitive interface
         </h2>

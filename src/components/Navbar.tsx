@@ -6,7 +6,7 @@ import { Button } from "./ui/Button";
 export const Navbar = () => {
   return (
     <div className="bg-black">
-      <div className="px-4">
+      <div className="px-4 container">
         <div className="py-4 flex items-center justify-between">
           <div className="relative">
             <div className="absolute w-full top-2 bottom-0 bg-[linear-gradient(to_right,#F87BFF,#F892CF,#FFDD98,#C2F0B1,#2FD8FE)] blur-md"></div>

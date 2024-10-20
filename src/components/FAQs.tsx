@@ -42,7 +42,7 @@ const AccordionItem = ({
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div
-      className="py-7 border-b border-white/30"
+      className="py-7 border-b border-white/30 cursor-pointer"
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className="flex items-center">
@@ -61,7 +61,7 @@ const AccordionItem = ({
         {isOpen && (
           <motion.div
             className={clsx("transition", {
-              hidden: !isOpen,
+              "hidden": !isOpen,
               "": isOpen === true,
             })}
             initial={{

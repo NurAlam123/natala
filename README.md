@@ -16,7 +16,7 @@ Natala, a modern responsive saas landing page built with Next.js, Tailwind CSS, 
 
 ## 🌐 Live Demo
 
-Check out the live demo: [Natala](https://natala.vercel.app/)
+Check out the live demo: [Natala](https://natala.pages.dev)
 
 ## ⚙️ Tech Stack
 
